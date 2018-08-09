@@ -1028,6 +1028,7 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
  * a simple convenience so we don't have to attach every token manually.
  */
 
+<<<<<<< HEAD
 var token = document.head.querySelector('meta[name="csrf-token"]');
 
 if (token) {
@@ -1035,6 +1036,15 @@ if (token) {
 } else {
   console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
 }
+=======
+//let token = document.head.querySelector('meta[name="csrf-token"]');
+
+// if (token) {
+//     window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
+// } else {
+//     console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
+// }
+>>>>>>> af1d543fc1df50f402cfd844ef6048b9bf61372f
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
@@ -31844,7 +31854,11 @@ module.exports = function spread(callback) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global, setImmediate) {/*!
+<<<<<<< HEAD
  * Vue.js v2.5.17
+=======
+ * Vue.js v2.5.16
+>>>>>>> af1d543fc1df50f402cfd844ef6048b9bf61372f
  * (c) 2014-2018 Evan You
  * Released under the MIT License.
  */
@@ -36933,7 +36947,11 @@ Object.defineProperty(Vue, 'FunctionalRenderContext', {
   value: FunctionalRenderContext
 });
 
+<<<<<<< HEAD
 Vue.version = '2.5.17';
+=======
+Vue.version = '2.5.16';
+>>>>>>> af1d543fc1df50f402cfd844ef6048b9bf61372f
 
 /*  */
 
